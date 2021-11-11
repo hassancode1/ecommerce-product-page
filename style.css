@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{  
+--Orange: hsl(26, 100%, 55%);
+--Pale-orange: hsl(25, 100%, 94%);
+--Very-vark-blue: hsl(220, 13%, 13%);
+--Dark-grayish-blue: hsl(219, 9%, 45%);
+--Grayish-blue: hsl(220, 14%, 75%);
+--Light-grayish-blue: hsl(223, 64%, 98%);
+--White: hsl(0, 0%, 100%);
+--Black: (with 75% opacity for lightbox background): hsl(0, 0%, 0%);
+}
+
+nav{
+height: 12vh;
+display: flex;
+justify-content: space-between;
+padding:1rem 0.2rem;
+background-color: var(--Light-grayish-blue);
+box-shadow: 0px 1px 4px rgba(15, 13, 13, 0.15);
+
+}
+.nav__links{
+    display: flex;
+ margin-left: 1.5rem; 
+ list-style-type:none ;
+}
+.nav__links li{
+    margin-left: 2rem;
+    
+}
+.nav__links a{
+    color: var(--Dark-grayish-blue);
+}
+ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .nav__avatar{
+      display: flex;
+      margin:0rem 1rem;
+     
+  }
+  .avatar{
+      width: 45px;
+      border-radius: 50% solid var(--Orange);
+      margin: 0rem  1rem;
+  }
+  .cart{
+      margin: 0.7rem 1.7rem;
+  }
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+   
+}
+.bg{
+    width: 370px;
+    border-radius:10px;
+    background-size: cover;
+}
+.image__slider{
+ display: flex;
+}
+.image__slider > div > img{
+width: 70px;
+border-radius:10px;
+margin: 12px;
+}
+.container__text{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+.company{
+    color: var(--Orange);
+    margin-bottom: 1rem;
+}
+.text{
+    color: var(--Dark-grayish-blue);
+    margin-top: 1.5rem;
+}
+.prices{
+    margin-top: 1rem;  
+}
+.flex{
+    display: flex;
+}
+.discount{
+    margin-left: 1rem;
+     background-color: var(--Pale-orange);
+     border-radius: 3px;
+   width: 40px;
+    color: var(--Orange);
+}
+.discount > h3{
+ font-size: 14px;
+ margin-left: 0.4rem;
+ margin-top: 3px;
+}
+.u__price{
+    margin-top: 3px;
+    color: var(--Grayish-blue);
+}
+ 
+.carts{
+    display: flex;
+    margin: 0.7rem 0rem;
+  
+}
+.quantity{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--Light-grayish-blue);
+    width: 120px; 
+    border-radius: 3px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    
+}
+.addcart{
+    display: block;
+    width: 200px;
+    background-color: var(--Orange);
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    
+}
